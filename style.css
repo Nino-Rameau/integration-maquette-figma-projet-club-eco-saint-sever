@@ -1,0 +1,202 @@
+/* ------------------------------------------------------
+                    VARIABLES
+--------------------------------------------------------*/
+
+:root {
+  /* COULEURS */
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-btn-header: #d9d9d9;
+  --color-bleu: #2f86a6;
+
+  /* NOM TYPO */
+  --typo-principal: "Quicksand", sans-serif;
+  --typo-secondaire: "Poppins", sans-serif;
+
+  /* TAILLE TYPO */
+  --typo-size-titre: 6rem;
+  --typo-size-sous-titre: 1.75rem;
+  --typo-size-sous-sous-titre: 1.125rem;
+  --typo-size-texte: 1rem;
+
+  --typo-weight-regular: 400;
+  --typo-weight-semi-bold: 600;
+  --typo-weight-bold: 700;
+
+  /* AUTRE POUR TYPO */
+  --typo-style: normal;
+
+  /* PADDING */
+  --padding-m: 7px 35px;
+  /* MARGIN */
+
+  /* BORDURE */
+
+  /* ARRONDIS */
+  --radius-m: 15px;
+  --radius-l: 20px;
+}
+
+/* 
+h1 : quicksand : bold : 96px
+h2 : poppins semibold 28px box-shadow
+h3 : poppins semibold 18px 
+p : quicksand regular 16px 
+*/
+
+/* ------------------------------------------------------
+                    ELT RESET
+--------------------------------------------------------*/
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ------------------------------------------------------
+                    BASES
+--------------------------------------------------------*/
+
+h1 {
+  color: var(--color-white);
+  font-family: var(--typo-principal);
+  font-size: var(--typo-size-titre);
+  font-weight: var(--typo-weight-bold);
+}
+
+h2 {
+  color: var(--color-black);
+  font-family: var(--typo-secondaire);
+  font-size: var(--typo-size-sous-titre);
+  font-weight: var(--typo-weight-semi-bold);
+}
+
+h3 {
+  color: var(--color-black);
+  font-family: var(--typo-secondaire);
+  font-size: var(--typo-size-sous-sous-titre);
+  font-weight: var(--typo-weight-semi-bold);
+}
+
+p {
+  color: var(--color-black);
+  font-family: var(--typo-principal);
+  font-size: var(--typo-size-texte);
+  font-weight: var(--typo-weight-regular);
+}
+
+/* ------------------------------------------------------
+                    ELT HEADER
+--------------------------------------------------------*/
+
+header,
+nav,
+.header-logo-recherche {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header {
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: var(--color-white);
+  z-index: 100;
+}
+
+nav {
+  gap: 25px;
+}
+
+nav a {
+  background-color: var(--color-btn-header);
+  padding: var(--padding-m);
+  border-radius: var(--radius-m);
+  color: var(--color-black);
+  font-family: var(--typo-secondaire);
+  font-size: var(--typo-size-sous-sous-titre);
+  font-weight: var(--typo-weight-regular);
+}
+
+.header-logo-recherche {
+  align-items: center;
+}
+
+.logo-header {
+  width: 80px;
+}
+
+/* ------------------------------------------------------
+                    ELT MAIN
+--------------------------------------------------------*/
+
+.img-principal {
+  width: 100%;
+  height: 500px;
+  margin-bottom: 45px;
+}
+
+h1 {
+  position: absolute;
+  margin: auto;
+  top: 250px;
+  left: 200px;
+  z-index: 1;
+}
+
+h2 {
+  padding: var(--padding-m);
+  border: solid 5px var(--color-bleu);
+  max-width: min-content;
+  white-space: nowrap;
+  border-radius: var(--radius-l);
+  display: flex;
+  margin: auto;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+}
+
+/* ------------------------------------------------------
+                    ELT FOOTER
+--------------------------------------------------------*/
+
+footer {
+  background-color: var(--color-bleu);
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.texte-footer {
+  border-right: 3px solid var(--color-white);
+  margin-right: 40px;
+  padding-right: 40px;
+}
+
+.texte-footer p {
+  color: var(--color-white);
+}
+
+.reseau-sociaux-footer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+}
+
+/* ------------------------------------------------------
+                    ELT AUTRE
+--------------------------------------------------------*/
