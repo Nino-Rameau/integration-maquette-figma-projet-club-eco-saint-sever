@@ -102,6 +102,10 @@ nav,
   justify-content: space-around;
 }
 
+.header-logo-recherche {
+  gap: 20px;
+}
+
 header {
   align-items: center;
   position: sticky;
@@ -109,7 +113,7 @@ header {
   background-color: var(--color-white);
   z-index: 100;
   box-shadow: 0 0 5px #000000;
-  max-height: 85px;
+  height: 70px;
 }
 
 nav {
@@ -131,7 +135,7 @@ nav a {
 }
 
 .logo-header {
-  width: 80px;
+  width: 60px;
 }
 
 /* ------------------------------------------------------
@@ -222,5 +226,5 @@ footer {
 --------------------------------------------------------*/
 
 .img-tempo {
-  width: 400px;
+  width: 300px;
 }
