@@ -128,6 +128,7 @@ nav a {
   font-family: var(--typo-secondaire);
   font-size: var(--typo-size-sous-sous-titre);
   font-weight: var(--typo-weight-regular);
+  box-shadow: 0 4px 8px #000000;
 }
 
 .header-logo-recherche {
