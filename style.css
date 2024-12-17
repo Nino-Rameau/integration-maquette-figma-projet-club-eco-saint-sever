@@ -37,13 +37,6 @@
   --radius-l: 20px;
 }
 
-/* 
-h1 : quicksand : bold : 96px
-h2 : poppins semibold 28px box-shadow
-h3 : poppins semibold 18px 
-p : quicksand regular 16px 
-*/
-
 /* ------------------------------------------------------
                     ELT RESET
 --------------------------------------------------------*/
@@ -128,7 +121,7 @@ nav a {
   font-family: var(--typo-secondaire);
   font-size: var(--typo-size-sous-sous-titre);
   font-weight: var(--typo-weight-regular);
-  box-shadow: 0 4px 8px #000000;
+  box-shadow: 0 3px 8px #000000;
 }
 
 .header-logo-recherche {
@@ -137,6 +130,43 @@ nav a {
 
 .logo-header {
   width: 60px;
+}
+
+/* BARRE DE RECHERCHE */
+
+.recherche {
+  display: flex;
+  align-items: center;
+  background-color: #d9d9d9;
+  padding: 0.5rem 1em;
+  gap: 10px;
+  border-radius: 30px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  max-height: 34px;
+}
+
+.img-barre-recherche {
+  max-width: 30px;
+  cursor: pointer;
+}
+
+.elt-img-recherche {
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  padding: 4px 8px;
+}
+
+.champ-saisie {
+  border: none;
+  color: black;
+  background-color: #d9d9d9;
+  border-radius: 30px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  padding-bottom: 7px;
+  padding-top: 7px;
+  padding-left: 5px;
+  padding-right: 120px;
 }
 
 /* ------------------------------------------------------
@@ -225,7 +255,3 @@ footer {
 /* ------------------------------------------------------
                     ELT AUTRE
 --------------------------------------------------------*/
-
-.img-tempo {
-  width: 300px;
-}
