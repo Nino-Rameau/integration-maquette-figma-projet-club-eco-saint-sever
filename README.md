@@ -1,6 +1,6 @@
 # Intégration de la maquette Figma du Club Eco Saint Sever
 
-Dans le cadre d'un projet scolaire, nous avons élaboré en groupe de cinq une identité visuelle pour le Club Éco Saint Sever. Ce travail comprenait la création d'un logo, d'une charte graphique, de mockups, ainsi que d'une maquette Figma d'un site vitrine. Nous avons ensuite procédé à l'intégration web de cette maquette.
+Dans le cadre d'un projet scolaire, nous avons élaboré en groupe de cinq une identité visuelle pour le Club Eco Saint Sever. Ce travail comprenait la création d'un logo, d'une charte graphique, de mockups, ainsi que d'une maquette Figma d'un site vitrine. Nous avons ensuite procédé à l'intégration web de cette maquette.
 
 Voici le lien vers l'intégration de la maquette : [Club Eco Saint Sever](https://nino-rameau.github.io/integration-maquette-figma-projet-club-eco-saint-sever/)
 
